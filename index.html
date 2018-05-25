@@ -1,317 +1,494 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Omni Guide</title>
-        <link rel="shortcut icon" type="image/x-icon" href="img/logo_icon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/body.css">
 
-    </head>
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
-    <header>
-            <span class="logo"><img class="logo-img" src="img/logo.png" alt="logo"></span>
-        
-            <span class="location">Gachibowli</span>
-            <span id="city">Hyderabad,Telangana,India<i class="fa fa-caret-down" style="font-size:18px; color:#073e38;"></i></span>
-            <span id="glow">Omni Guide</span>
-            <span id="search"><i class="fa fa-search"></i>Search</span>
-           <span id="help"><i class="fa fa-question-circle"></i>Help</span>
-           <span id="login"><i class="fa fa-user"></i>Sign In</span>
-    </header>
-    
-<div class="row" style="background: #0D3331;color: #ddd;position:relative;padding-top:7em">
-        <div class="col-md-12">
-          <div class="carousel slide multi-item-carousel" id="theCarousel">
-            <div class="carousel-inner">
-              <div class="item active">
-                <div class="col-xs-4"><a href="#1"><img src="img/offer.webp" class="img-responsive"></a></div>
-              </div>
-              <div class="item">
-                <div class="col-xs-4"><a href="#1"><img src="img/offer1.webp" class="img-responsive"></a></div>
-              </div>
-              <div class="item">
-                <div class="col-xs-4"><a href="#1"><img src="img/offer2.webp" class="img-responsive"></a></div>
-              </div>
-              <div class="item">
-                <div class="col-xs-4"><a href="#1"><img src="img/offer3.webp" class="img-responsive"></a></div>
-              </div>
-              <div class="item">
-                <div class="col-xs-4"><a href="#1"><img src="img/offer4.webp" class="img-responsive"></a></div>
-              </div>
-              <div class="item">
-                <div class="col-xs-4"><a href="#1"><img src="img/offer5.webp" class="img-responsive"></a></div>
-              </div>
-              <!-- add  more items here -->
-              <!-- Example item start:  -->
-              
-              <div class="item">
-                <div class="col-xs-4"><a href="#1"><img src="img/offer6.webp" class="img-responsive"></a></div>
-              </div>
-              
-              <!--  Example item end -->
+<head>
+  <title>Omni Guide</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo_icon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/body.css">
+
+</head>
+
+<body onload="myFunction()" data-spy="scroll" data-target="#myScrollspy" data-offset="0">
+  <header>
+    <span class="logo">
+      <img class="logo-img" src="img/logo.png" alt="logo">
+    </span>
+
+    <span data-toggle="modal" data-target="#myModal" class="location">Gachibowli</span>
+    <span data-toggle="modal" data-target="#myModal" id="city">Hyderabad,Telangana,India
+      <i class="fa fa-caret-down" style="font-size:18px; color:#073e38;"></i>
+    </span>
+    <span data-toggle="modal" data-target="#myModal" id="glow">Omni Guide</span>
+    <span id="search">
+      <i class="fa fa-search"></i>Search</span>
+    <span id="help">
+      <i class="fa fa-question-circle"></i>Help</span>
+    <span id="login" data-toggle="modal" data-target="#myModal2">
+      <i class="fa fa-user"></i>Sign In</span>
+  </header>
+  <div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h3 class="modal-title" id="myModalLabel">Location</h3>
+        </div>
+
+        <div class="modal-body">
+          <div class="input">
+            <input type="text" class="input_box" value="" name="" placeholder="Search for area,city..">
+
+          </div>
+          <div class="gps">
+            <div class="gps_content">
+              <i class="fa fa-crosshairs"></i>
+              <strong>Get current location</strong>
             </div>
-            <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-            <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            <div class="sub_heading">using gps</div>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- modal-content -->
+    </div>
+    <!-- modal-dialog -->
+  </div>
+  <!-- modal -->
+
+  <!-- Modal -->
+  <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h2 class="modal-title" id="myModalLabel2">Login </h2>
+        </div>
+
+        <div class="modal-body">
+          <div class="login_button">
+            <button class="loginBtn loginBtn--google">
+              Login with Google
+            </button>
+
+          </div>
+          <div class="login_button">
+            <button class="loginBtn loginBtn--facebook">
+              Login with Facebook
+            </button>
+
           </div>
         </div>
+
       </div>
-        <div id="scroll" >
-                  
-  <div class="container">
+      <!-- modal-content -->
+    </div>
+    <!-- modal-dialog -->
+  </div>
+  <!-- modal -->
+  <div id="loader2"></div>
+  <div id="loader"></div>
+  <span id="loader1">Looking for malls near you...</span>
+
+  <!-- container -->
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <div class="row" style="background: #0D3331;color: #ddd;position:relative;padding-top:7em">
+      <div class="col-md-12">
+        <div class="carousel slide multi-item-carousel" id="theCarousel">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-xs-4">
+                <a href="#1">
+                  <img src="img/offer.webp" class="img-responsive">
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-xs-4">
+                <a href="#1">
+                  <img src="img/offer1.webp" class="img-responsive">
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-xs-4">
+                <a href="#1">
+                  <img src="img/offer2.webp" class="img-responsive">
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-xs-4">
+                <a href="#1">
+                  <img src="img/offer3.webp" class="img-responsive">
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-xs-4">
+                <a href="#1">
+                  <img src="img/offer4.webp" class="img-responsive">
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-xs-4">
+                <a href="#1">
+                  <img src="img/offer5.webp" class="img-responsive">
+                </a>
+              </div>
+            </div>
+            <!-- add  more items here -->
+            <!-- Example item start:  -->
+
+            <div class="item">
+              <div class="col-xs-4">
+                <a href="#1">
+                  <img src="img/offer6.webp" class="img-responsive">
+                </a>
+              </div>
+            </div>
+
+            <!--  Example item end -->
+          </div>
+          <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+          </a>
+          <a class="right carousel-control" href="#theCarousel" data-slide="next">
+            <i class="glyphicon glyphicon-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="scroll">
+
+      <div class="container">
         <div class="row">
           <nav class="col-sm-3" id="myScrollspy">
             <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
-              
-              <li class="active"><a class="side1" href="#section1"> <span class="	glyphicon glyphicon-fire" style="margin-right: 13px"></span><strong >Popular</strong></a></li>
-              <li ><a class="side2" href="#section2"> <span class="	glyphicon glyphicon-flash" style="margin-right: 13px"></span><strong >Nearby</strong></a></li>
-              
+
+              <li class="active">
+                <a class="side1" href="#section1">
+                  <span class="	glyphicon glyphicon-fire" style="margin-right: 13px"></span>
+                  <strong>Popular</strong>
+                </a>
+              </li>
+              <li>
+                <a class="side2" href="#section2">
+                  <span class="	glyphicon glyphicon-flash" style="margin-right: 13px"></span>
+                  <strong>Nearby</strong>
+                </a>
+              </li>
+
             </ul>
           </nav>
-      
+
           <div class="col-sm-9" id="right">
             <div id="section1">
               <h1>Popular</h1>
-              
+
               <div id="res">
                 <article>
                   <div class="col-sm-3">
-               <img src="img/gvk.png" class="mall_logo">
-              </div>
-              <div class="col-sm-6">
-                <h2>GVK One Mall</h2>
-              <h4>Banjara Hills</h4>
-              <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
-              </div>
-              <div class="col-sm-3"><span class="rating">4.3</span></div>
-              <div class="clearfix"> </div>
-              <hr>
-              <div class="col-sm-4">Categories:</div>
-              <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
-              <div class="col-sm-4">Timings:</div>
-              <div class="col-sm-8">11 A.M to 11 P.M</div>
-              <div class="col-sm-4">Promotions:</div>
-              <div class="col-sm-8">10% off on shopping in Puma</div>
-            </article>
-              </div>
-              <div id="res">
-                <article>
+                    <img src="img/gvk.png" class="mall_logo">
+                  </div>
+                  <div class="col-sm-6">
+                    <h2>GVK One Mall</h2>
+                    <h4>Banjara Hills</h4>
+                    <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
+                  </div>
                   <div class="col-sm-3">
-               <img src="img/gvk.png" class="mall_logo">
-              </div>
-              <div class="col-sm-6">
-                <h2>GVK One Mall</h2>
-              <h4>Banjara Hills</h4>
-              <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
-              </div>
-              <div class="col-sm-3"><span class="rating">4.3</span></div>
-              <div class="clearfix"> </div>
-              <hr>
-              <div class="col-sm-4">Categories:</div>
-              <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
-              <div class="col-sm-4">Timings:</div>
-              <div class="col-sm-8">11 A.M to 11 P.M</div>
-              <div class="col-sm-4">Promotions:</div>
-              <div class="col-sm-8">10% off on shopping in Puma</div>
-            </article>
+                    <span class="rating">4.3</span>
+                  </div>
+                  <div class="clearfix"> </div>
+                  <hr>
+                  <div class="col-sm-4">Categories:</div>
+                  <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
+                  <div class="col-sm-4">Timings:</div>
+                  <div class="col-sm-8">11 A.M to 11 P.M</div>
+                  <div class="col-sm-4">Promotions:</div>
+                  <div class="col-sm-8">10% off on shopping in Puma</div>
+                </article>
               </div>
               <div id="res">
                 <article>
                   <div class="col-sm-3">
-               <img src="img/gvk.png" class="mall_logo">
+                    <img src="img/gvk.png" class="mall_logo">
+                  </div>
+                  <div class="col-sm-6">
+                    <h2>GVK One Mall</h2>
+                    <h4>Banjara Hills</h4>
+                    <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
+                  </div>
+                  <div class="col-sm-3">
+                    <span class="rating">4.3</span>
+                  </div>
+                  <div class="clearfix"> </div>
+                  <hr>
+                  <div class="col-sm-4">Categories:</div>
+                  <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
+                  <div class="col-sm-4">Timings:</div>
+                  <div class="col-sm-8">11 A.M to 11 P.M</div>
+                  <div class="col-sm-4">Promotions:</div>
+                  <div class="col-sm-8">10% off on shopping in Puma</div>
+                </article>
               </div>
-              <div class="col-sm-6">
-                <h2>GVK One Mall</h2>
-              <h4>Banjara Hills</h4>
-              <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
+              <div id="res">
+                <article>
+                  <div class="col-sm-3">
+                    <img src="img/gvk.png" class="mall_logo">
+                  </div>
+                  <div class="col-sm-6">
+                    <h2>GVK One Mall</h2>
+                    <h4>Banjara Hills</h4>
+                    <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
+                  </div>
+                  <div class="col-sm-3">
+                    <span class="rating">4.3</span>
+                  </div>
+                  <div class="clearfix"> </div>
+                  <hr>
+                  <div class="col-sm-4">Categories:</div>
+                  <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
+                  <div class="col-sm-4">Timings:</div>
+                  <div class="col-sm-8">11 A.M to 11 P.M</div>
+                  <div class="col-sm-4">Promotions:</div>
+                  <div class="col-sm-8">10% off on shopping in Puma</div>
+                </article>
               </div>
-              <div class="col-sm-3"><span class="rating">4.3</span></div>
-              <div class="clearfix"> </div>
-              <hr>
-              <div class="col-sm-4">Categories:</div>
-              <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
-              <div class="col-sm-4">Timings:</div>
-              <div class="col-sm-8">11 A.M to 11 P.M</div>
-              <div class="col-sm-4">Promotions:</div>
-              <div class="col-sm-8">10% off on shopping in Puma</div>
-            </article>
-              </div>
-            
-              
+
+
             </div>
             <div id="section2">
               <h1>Nearby</h1>
               <div id="res">
                 <article>
                   <div class="col-sm-3">
-               <img src="img/gvk.png" class="mall_logo">
-              </div>
-              <div class="col-sm-6">
-                <h2>GVK One Mall</h2>
-              <h4>Banjara Hills</h4>
-              <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
-              </div>
-              <div class="col-sm-3"><span class="rating">4.3</span></div>
-              <div class="clearfix"> </div>
-              <hr>
-              <div class="col-sm-4">Categories:</div>
-              <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
-              <div class="col-sm-4">Timings:</div>
-              <div class="col-sm-8">11 A.M to 11 P.M</div>
-              <div class="col-sm-4">Promotions:</div>
-              <div class="col-sm-8">10% off on shopping in Puma</div>
-            </article>
+                    <img src="img/gvk.png" class="mall_logo">
+                  </div>
+                  <div class="col-sm-6">
+                    <h2>GVK One Mall</h2>
+                    <h4>Banjara Hills</h4>
+                    <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
+                  </div>
+                  <div class="col-sm-3">
+                    <span class="rating">4.3</span>
+                  </div>
+                  <div class="clearfix"> </div>
+                  <hr>
+                  <div class="col-sm-4">Categories:</div>
+                  <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
+                  <div class="col-sm-4">Timings:</div>
+                  <div class="col-sm-8">11 A.M to 11 P.M</div>
+                  <div class="col-sm-4">Promotions:</div>
+                  <div class="col-sm-8">10% off on shopping in Puma</div>
+                </article>
               </div>
               <div id="res">
                 <article>
                   <div class="col-sm-3">
-               <img src="img/gvk.png" class="mall_logo">
-              </div>
-              <div class="col-sm-6">
-                <h2>GVK One Mall</h2>
-              <h4>Banjara Hills</h4>
-              <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
-              </div>
-              <div class="col-sm-3"><span class="rating">4.3</span></div>
-              <div class="clearfix"> </div>
-              <hr>
-              <div class="col-sm-4">Categories:</div>
-              <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
-              <div class="col-sm-4">Timings:</div>
-              <div class="col-sm-8">11 A.M to 11 P.M</div>
-              <div class="col-sm-4">Promotions:</div>
-              <div class="col-sm-8">10% off on shopping in Puma</div>
-            </article>
+                    <img src="img/gvk.png" class="mall_logo">
+                  </div>
+                  <div class="col-sm-6">
+                    <h2>GVK One Mall</h2>
+                    <h4>Banjara Hills</h4>
+                    <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
+                  </div>
+                  <div class="col-sm-3">
+                    <span class="rating">4.3</span>
+                  </div>
+                  <div class="clearfix"> </div>
+                  <hr>
+                  <div class="col-sm-4">Categories:</div>
+                  <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
+                  <div class="col-sm-4">Timings:</div>
+                  <div class="col-sm-8">11 A.M to 11 P.M</div>
+                  <div class="col-sm-4">Promotions:</div>
+                  <div class="col-sm-8">10% off on shopping in Puma</div>
+                </article>
               </div>
               <div id="res">
                 <article>
                   <div class="col-sm-3">
-               <img src="img/gvk.png" class="mall_logo">
-              </div>
-              <div class="col-sm-6">
-                <h2>GVK One Mall</h2>
-              <h4>Banjara Hills</h4>
-              <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
-              </div>
-              <div class="col-sm-3"><span class="rating">4.3</span></div>
-              <div class="clearfix"> </div>
-              <hr>
-              <div class="col-sm-4">Categories:</div>
-              <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
-              <div class="col-sm-4">Timings:</div>
-              <div class="col-sm-8">11 A.M to 11 P.M</div>
-              <div class="col-sm-4">Promotions:</div>
-              <div class="col-sm-8">10% off on shopping in Puma</div>
-            </article>
+                    <img src="img/gvk.png" class="mall_logo">
+                  </div>
+                  <div class="col-sm-6">
+                    <h2>GVK One Mall</h2>
+                    <h4>Banjara Hills</h4>
+                    <h5>1st Floor, Road No. 1, Banjara Hills, Hyderabad</h5>
+                  </div>
+                  <div class="col-sm-3">
+                    <span class="rating">4.3</span>
+                  </div>
+                  <div class="clearfix"> </div>
+                  <hr>
+                  <div class="col-sm-4">Categories:</div>
+                  <div class="col-sm-8">Shopping,Dining,Gaming,Movies</div>
+                  <div class="col-sm-4">Timings:</div>
+                  <div class="col-sm-8">11 A.M to 11 P.M</div>
+                  <div class="col-sm-4">Promotions:</div>
+                  <div class="col-sm-8">10% off on shopping in Puma</div>
+                </article>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>
-                      
+
+    </div>
+    <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+
+      <!--Footer Links-->
+      <div class="container  text-md-left" style="padding-top:3em">
+
+        <!-- Footer links -->
+        <div class="row  text-md-left mt-3 pb-3">
+
+          <!--First column-->
+          <div class="col-md-3 col-lg-3 col-xl-3 ">
+            <h4 id="footerHead" class="text-uppercase mb-4 font-weight-bold">Company</h4>
+            <p id="footerLink">
+              <a href="#!">About us</a>
+            </p>
+            <p id="footerLink">
+              <a href="#!">Team</a>
+            </p>
+            <p id="footerLink">
+              <a href="#!">Careers</a>
+            </p>
+            <p id="footerLink">
+              <a href="#!">Omniguide Blog</a>
+            </p>
+          </div>
+          <!--/.First column-->
+
+
+
+          <!--Second column-->
+          <div class="col-md-3 col-lg-3  ">
+            <h4 id="footerHead" class="text-uppercase mb-4 font-weight-bold">Contact</h4>
+            <p id="footerLink">
+              <a href="#!">Help & Support</a>
+            </p>
+            <p id="footerLink">
+              <a href="#!">Partner with us</a>
+            </p>
+
+          </div>
+          <!--/.Second column-->
+
+
+
+          <!--Third column-->
+          <div class="col-md-3 col-lg-3 ">
+            <h4 id="footerHead" class="text-uppercase mb-4 font-weight-bold">Legal</h4>
+            <p id="footerLink">
+              <a href="#!">Terms & Conditions</a>
+            </p>
+            <p id="footerLink">
+              <a href="#!">Privacy Policy</a>
+            </p>
+            <p id="footerLink">
+              <a href="#!">Offer Terms</a>
+            </p>
+
+          </div>
+          <!--/.Third column-->
+
+
+
+          <!--Fourth column-->
+          <div class="col-md-3 col-lg-3  ">
+            <h4 id="footerHead" class="text-uppercase mb-4 font-weight-bold">Contact</h4>
+            <p id="footerLink">
+              <i class="fa fa-home mr-3"></i>Upal,Hyderabad,Andhra Pradesh </p>
+            <p id="footerLink">
+              <i class="fa fa-envelope mr-3"></i> Anupama@gmail.com</p>
+            <p id="footerLink">
+              <i class="fa fa-phone mr-3"></i> 8985496029</p>
+
+          </div>
+          <!--/.Fourth column-->
+
         </div>
-        <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
-      
-            <!--Footer Links-->
-            <div class="container  text-md-left" style="padding-top:3em">
-        
-                <!-- Footer links -->
-                <div class="row  text-md-left mt-3 pb-3">
-        
-                    <!--First column-->
-                    <div class="col-md-3 col-lg-3 col-xl-3 ">
-                        <h4  id="footerHead" class="text-uppercase mb-4 font-weight-bold">Company</h4>
-                        <p id="footerLink"><a  href="#!">About us</a></p>
-                        <p id="footerLink"><a  href="#!">Team</a></p>
-                        <p id="footerLink"><a  href="#!">Careers</a></p>
-                        <p id="footerLink"><a  href="#!">Omniguide Blog</a></p>
-                    </div>
-                    <!--/.First column-->
-        
-                  
-        
-                    <!--Second column-->
-                    <div class="col-md-3 col-lg-3  ">
-                        <h4  id="footerHead" class="text-uppercase mb-4 font-weight-bold">Contact</h4>
-                        <p id="footerLink"><a  href="#!">Help & Support</a></p>
-                        <p id="footerLink"><a  href="#!">Partner with us</a></p>
-                        
-                    </div>
-                    <!--/.Second column-->
-        
-                    
-        
-                    <!--Third column-->
-                    <div class="col-md-3 col-lg-3 ">
-                        <h4  id="footerHead" class="text-uppercase mb-4 font-weight-bold">Legal</h4>
-                        <p id="footerLink"><a  href="#!">Terms & Conditions</a></p>
-                        <p id="footerLink"><a  href="#!">Privacy Policy</a></p>
-                        <p id="footerLink"><a  href="#!">Offer Terms</a></p>
-                        
-                    </div>
-                    <!--/.Third column-->
-        
-                   
-        
-                    <!--Fourth column-->
-                    <div class="col-md-3 col-lg-3  ">
-                        <h4 id="footerHead" class="text-uppercase mb-4 font-weight-bold">Contact</h4>
-                        <p id="footerLink"><i class="fa fa-home mr-3"></i>Upal,Hyderabad,Andhra Pradesh </p>
-                        <p id="footerLink"><i class="fa fa-envelope mr-3"></i> Anupama@gmail.com</p>
-                        <p id="footerLink"><i class="fa fa-phone mr-3"></i> 8985496029</p>
-                        
-                    </div>
-                    <!--/.Fourth column-->
-        
-                </div>
-                <!-- Footer links -->
-        
-                <hr>
-        
-                <div class="row py-3 d-flex align-items">
-        
-                    <!--Grid column-->
-                    <div class="col-md-4 col-lg-4">
-        
-                        <span class="logo"><img class="footer-img" src="img/logo.png" alt="logo"></span><span class="footerText">Omniguide</span>
-        
-                    </div>
-                    <div class="col-md-4 col-lg-4">
-        
-                        <!--Copyright-->
-                        <p  id="footerCopy" >© 2018 <strong> Omniguide</strong></p>
-                        <!--/.Copyright-->
-        
-                    </div>
-                    <!--Grid column-->
-        
-                    <!--Grid column-->
-                    <div class="col-md-4 col-lg-4 ">
-        
-                        <!--Social buttons-->
-                        <div class="text-center text-md-right">
-                            <ul class="list-unstyled list-inline">
-                                <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-facebook"></i></a></li>
-                                <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-google-plus"></i></a></li>
-                                <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        <!--/.Social buttons-->
-        
-                    </div>
-                    <!--Grid column-->
-        
-                </div>
-        
+        <!-- Footer links -->
+
+        <hr>
+
+        <div class="row py-3 d-flex align-items">
+
+          <!--Grid column-->
+          <div class="col-md-4 col-lg-4">
+
+            <span class="logo">
+              <img class="footer-img" src="img/logo.png" alt="logo">
+            </span>
+            <span class="footerText">Omniguide</span>
+
+          </div>
+          <div class="col-md-4 col-lg-4">
+
+            <!--Copyright-->
+            <p id="footerCopy">© 2018
+              <strong> Omniguide</strong>
+            </p>
+            <!--/.Copyright-->
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 col-lg-4 ">
+
+            <!--Social buttons-->
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fa fa-google-plus"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
-        
-        </footer>
+            <!--/.Social buttons-->
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+
+      </div>
+
+    </footer>
+  </div>
 </body>
 <script type="text/javascript" src="js/script.js"></script>
+
 </html>
