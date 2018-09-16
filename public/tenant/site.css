@@ -1,0 +1,1837 @@
+.powered {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0px;
+}
+
+.powered p {
+    padding-top: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.shop_floor {
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #f5f7fd;
+}
+
+.ourbrands {
+    background-color: #f5f7fd;
+}
+
+.topsldk {
+    margin-top: 3%;
+}
+
+figure.snip1190 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    max-height: 350px;
+    width: 100%;
+    background: #000000;
+    text-align: center;
+}
+
+figure.snip1190 * {
+    -webkit-box-sizing: padding-box;
+    box-sizing: padding-box;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+figure.snip1190 img {
+    opacity: 0.8;
+    width: 100%;
+}
+
+figure.snip1190 figcaption {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+figure.snip1190 h2 {
+    font-weight: 400;
+    left: 0;
+    right: 0;
+    letter-spacing: -1px;
+    margin: 0 auto;
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 50%;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+figure.snip1190 h2 span {
+    font-weight: 800;
+}
+
+figure.snip1190 p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    opacity: 0;
+    font-size: 14px;
+    -webkit-transform: translateY(-20%) scale(0.7);
+    transform: translateY(-20%) scale(0.7);
+}
+
+figure.snip1190 .square {
+    height: 78px;
+    width: 78px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    -webkit-transform: rotate(45deg) translate(-50%, -50%);
+    transform: rotate(45deg) translate(-50%, -50%);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+figure.snip1190 .square:before,
+figure.snip1190 .square:after,
+figure.snip1190 .square div:before,
+figure.snip1190 .square div:after {
+    background-color: #ffffff;
+    position: absolute;
+    content: "";
+    display: block;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+figure.snip1190 .square:before,
+figure.snip1190 .square:after {
+    width: 65%;
+    height: 2px;
+}
+
+figure.snip1190 .square div:before,
+figure.snip1190 .square div:after {
+    width: 2px;
+    height: 65%;
+}
+
+figure.snip1190 .square:before,
+figure.snip1190 .square div:before {
+    left: 0;
+    top: 0;
+}
+
+figure.snip1190 .square:after,
+figure.snip1190 .square div:after {
+    bottom: 0;
+    right: 0;
+}
+
+figure.snip1190 a {
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    position: absolute;
+}
+
+figure.snip1190:hover img,
+figure.snip1190.hover img {
+    opacity: 0.25;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+figure.snip1190:hover h2,
+figure.snip1190.hover h2 {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+figure.snip1190:hover p,
+figure.snip1190.hover p {
+    opacity: 1;
+    -webkit-transform: translateY(0px) scale(1);
+    transform: translateY(0px) scale(1);
+}
+
+figure.snip1190:hover .square:before,
+figure.snip1190.hover .square:before {
+    width: 38%;
+}
+
+figure.snip1190:hover .square div:before,
+figure.snip1190.hover .square div:before {
+    height: 38%;
+}
+
+figure.snip1190:hover .square:after,
+figure.snip1190.hover .square:after {
+    width: 55%;
+}
+
+figure.snip1190:hover .square div:after,
+figure.snip1190.hover .square div:after {
+    height: 55%;
+}
+
+.crat1 h2 {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.crat1 h1 {
+    margin: 0px;
+    font-size: 34px;
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.r-creat3 h3 {
+    color: #ffffffeb;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10%;
+    font-weight: 100;
+    padding: 0% 13%;
+}
+
+.r-creat1 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.r-creat2 {
+    padding: 0px !important;
+}
+
+.r-creat3 {
+    background: #000;
+    min-height: 497px !important;
+    color: #fff;
+}
+
+.crat1 {
+    border: #34f17b solid 5px;
+    padding: 25px 41px;
+    margin: 13% 13% 10% 13%;
+}
+
+a.enter1 {
+    background: #34f17b;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 8% 13% 0% 13%;
+}
+
+a.enter1:hover,
+a.enter1:focus {
+    background: #005420;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.city_abt {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.city_brands img {
+    padding: 35px 5px;
+    background-color: #fff;
+}
+
+.city_brands img:hover {
+    box-shadow: 0 1px 10px 5px rgba(0, 0, 0, 0.05);
+}
+
+.shop_head {
+    padding: 5% 1% 5% 4%;
+}
+
+.dine_tabs .nav-tabs>li>a::after {
+    content: "";
+    background: #4285F4;
+    height: 100%;
+    position: absolute;
+    width: 1%;
+    left: 86%;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(0);
+}
+
+.city_restr {
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+
+.bowling h1,
+.kids h1 {
+    margin: 0px;
+    color: #ac2525;
+    padding: 20px;
+    display: table-cell;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.bowling p,
+.kids p {
+    line-height: 23px;
+    padding-left: 20px;
+    display: table;
+}
+
+.bowling h3 {
+    padding-bottom: 4%;
+    padding-left: 20px;
+    display: table;
+    color: #493dd1;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.kids h3 {
+    padding-bottom: 23px;
+    padding-left: 20px;
+    display: table;
+    color: #493dd1;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.cafe_logo,
+.kids {
+    background-color: #cce7eb;
+    float: left;
+}
+
+.bowling {
+    background-color: #cce7eb;
+}
+
+.dine-cont {
+    border: 5px solid #fff;
+}
+
+.cafe_logo img {
+    padding: 15px;
+}
+
+.cafe_logo h3 {
+    margin: 0px;
+    font-family: 'Spinnaker', sans-serif;
+    color: #ac2525;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 53px;
+}
+
+.dine_tabs .nav-tabs>li {
+    float: none !important;
+}
+
+.dine_tabs {
+    border-right: 1px solid #ececec;
+}
+
+.dine_tabs .shop_page ul {
+    padding-left: 0px !important;
+}
+
+.navcnt {
+    margin-top: 0px !important;
+}
+
+.song_date {
+    list-style-type: none;
+    float: right;
+    border-left: 2px solid #969696;
+    padding: 0px;
+}
+
+.song_date li {
+    float: left;
+    margin: 0px 20px;
+}
+
+.song_date .fa-calendar-o,
+.song_date .fa-clock-o {
+    font-size: 40px;
+    color: #1fa3d0;
+    padding: 9px;
+}
+
+.song_date p {
+    color: #f12e2e;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.city_right li:nth-child(5) {
+    border-bottom: none;
+}
+
+.save_first,
+.save_second,
+.save_third,
+.city_savecoffe {
+    position: relative;
+}
+
+.save_first:hover::before,
+.save_second:hover::before,
+.save_third:hover::before,
+.city_savecoffe:hover::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1cb1c1b8;
+}
+
+.city_savecoffe:hover {
+    color: #fff;
+}
+
+.enter_bg {
+    background-attachment: fixed;
+}
+
+.enter_bg h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 14%;
+}
+
+.dine_bg,
+.kids_bg {
+    background-color: #d1ecef;
+    padding: 4% 7% 5% 7%;
+}
+
+.shop_head h2 {
+    text-align: center;
+    margin: 0px;
+    letter-spacing: 0.7px;
+    padding: 32px 0px;
+    font-family: 'Spinnaker', sans-serif;
+    color: #6473c5;
+}
+
+.events_banner {
+    height: 500px !important;
+}
+
+.events_banner h1 {
+    text-align: center;
+    padding-top: 12%;
+    font-weight: bold;
+    font-size: 72px;
+    color: #fff;
+}
+
+.event_head {
+    margin: 0px;
+    font-size: 42px;
+}
+
+.city_event {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.song_event {
+    padding-left: 20px !important;
+}
+
+.song_event h1 {
+    margin: 0px;
+    padding: 0px 0px 12px 0px;
+    font-family: 'Spinnaker', sans-serif;
+    color: #c00;
+}
+
+.song_event p {
+    line-height: 25px;
+    letter-spacing: 0.6px;
+}
+
+.city_contact {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.f1s {
+    background: #4bf;
+    padding: 20px 26px;
+}
+
+.f3s {
+    background: #34495e;
+    padding: 22px 25px;
+}
+
+.f1s,
+.f3s {
+    color: #fff;
+    border-radius: 50%;
+    font-size: 30px !important;
+    display: table !important;
+    margin: 0 auto !important;
+}
+
+.contactone {
+    text-align: center;
+    margin: 0px;
+    font-family: 'Molengo', sans-serif;
+}
+
+.contactone p {
+    font-size: 12pt;
+    line-height: 2;
+    padding: 0px 19%;
+}
+
+.poplbl.ctrlname {
+    margin-bottom: 10px;
+}
+
+.shops_list {
+    border: 1px solid #ecebeb;
+    background-color: #ffffff;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.shops_list:hover {
+    box-shadow: 0px 0px 10px #999;
+}
+
+.shops_list h3 {
+    text-align: center;
+    margin: 0px;
+    letter-spacing: 0.7px;
+    padding: 32px 0px;
+    font-family: 'Spinnaker', sans-serif;
+    color: #6473c5;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: inherit !important;
+}
+
+.shop_page .nav-tabs {
+    border-bottom: 1px solid #ececec;
+}
+
+.shop_page .nav-tabs>li.active>a {
+    color: #555;
+    cursor: default;
+    background-color: inherit !important;
+    border: none !important;
+    border-bottom-color: transparent;
+}
+
+.shop_page .nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #ec3c3c;
+    font-family: 'Spinnaker', sans-serif;
+    letter-spacing: 0.6px;
+}
+
+.container-fluid {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.mainbanner1 {
+    padding: 0px !important;
+}
+
+.wheader {
+    margin-top: 0px !important;
+}
+
+.navbar-default {
+    background: none !important;
+    border: none !important;
+    margin-bottom: 0px !important;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #555;
+    color: #cb3434 !important;
+    padding: 8px 15px 8px 14px !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 8px 15px 8px 14px !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #cb3434 !important;
+    padding: 8px 15px 8px 14px !important;
+}
+
+.walogo {
+    float: left !important;
+    padding: 0px !important;
+    outline: none !important;
+}
+
+.walogo img {
+    width: 30% !important;
+}
+
+.navbar-brand {
+    height: auto !important;
+}
+
+.navcnt {
+    float: right !important;
+    padding-top: 32px !important;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none !important;
+}
+
+.navcnt ul {
+    text-transform: uppercase !important;
+}
+
+.navcnt li {
+    letter-spacing: 4px;
+    padding-top: 2px;
+    text-transform: uppercase;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.navcnt li a {
+    color: #000 !important;
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 10pt !important;
+    letter-spacing: 2px !important;
+    font-weight: 600 !important;
+}
+
+.city_map .fa-map-marker {
+    text-align: center;
+    font-size: 45px;
+    color: #38c5ed;
+    display: block;
+    margin: 0px auto;
+}
+
+.city_map h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.city_map hr {
+    width: 62px;
+    border-top: 2px solid #38c5ed;
+    margin-top: 0px;
+}
+
+.city_map {
+    padding: 43px 10px !important;
+    border-right: 1px solid #d2d0d0 !important;
+}
+
+.city_cont {
+    margin-bottom: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #ececec;
+}
+
+.city_movie {
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #edededba;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.city_movie h1 {
+    padding-bottom: 30px;
+}
+
+.city_stores .nav-tabs {
+    border-bottom: none !important;
+    margin-left: 16%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 72%;
+    margin-bottom: 4% !important;
+    margin-top: 4%;
+}
+
+.city_stores .nav-tabs>li>a {
+    border-radius: none !important;
+    color: #000 !important;
+    padding: 10px 25px !important;
+    border: none !important;
+    margin-right: 15px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.city_stores .nav-tabs>li.active>a {
+    cursor: default;
+    background-color: #2594ad !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+}
+
+.city_right ul {
+    list-style-type: none;
+    background-color: #376492;
+    padding: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 118px;
+    z-index: 99999;
+    margin-bottom: 0px;
+}
+
+.city_right {
+    padding: 0px !important;
+}
+
+.city_right li {
+    padding: 10px 5px;
+    border-bottom: 1px solid #908e8e94;
+}
+
+.city_right li a {
+    text-decoration: none;
+}
+
+.city_right li:hover {
+    background-color: #f80000;
+}
+
+.city_right li img {
+    margin: 0px auto;
+    display: block;
+    width: 33px !important;
+}
+
+.city_right h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.kekmdd {
+    padding: 3%;
+    text-align: center;
+}
+
+.city_about h1 {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    font-size: 37pt;
+    color: #b52727;
+}
+
+.about-cont p {
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.img-thumbnail {
+    border: 1px solid #af2b2b !important;
+}
+
+.city_stores {
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+}
+
+.city_coffe h3 {
+    position: absolute;
+    bottom: 0px;
+    background-color: #000000b8;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.city_store {
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.city_stores .tab-content {
+    background-color: #ffffffdb;
+    padding-bottom: 29px;
+    padding-top: 20px;
+    margin-bottom: 10%;
+    margin-top: 7%;
+}
+
+.city_coffe {
+    background-color: #fff;
+    padding: 0px !important;
+    position: relative;
+    margin: 15px 11px;
+    width: 31.6% !important;
+}
+
+.city_save h2,
+.city_savecoffe h2,
+.city_savecoffe p {
+    font-size: 35px;
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.city_savecoffe h2 {
+    font-size: 55px !important;
+    color: #000;
+}
+
+.city_savecoffe p {
+    font-size: 16px !important;
+    top: 35%;
+    color: #000;
+}
+
+.events {
+    margin-bottom: 4%;
+}
+
+.events_list .fa-calendar-o,
+.events_list .fa-clock-o,
+.events_list .fa-users {
+    font-size: 20px;
+    padding: 5px 9px;
+}
+
+.events_list {
+    padding-left: 0px;
+    list-style-type: none;
+    color: #fff;
+    background-color: #376492;
+}
+
+.events_list li {
+    display: inline-block;
+    padding: 7px 30px 0px 30px;
+    border-right: 1px solid #ffff;
+}
+
+.events_list li:nth-child(3) {
+    border-right: none;
+}
+
+.city_events .events_list p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.city_events h3 {
+    color: #376492;
+    margin-bottom: 4%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.city_events {
+    margin-right: 20px !important;
+    width: 32% !important;
+}
+
+.city_events p {
+    line-height: 25px;
+    color: #000000b5;
+    letter-spacing: 0.5px;
+}
+
+.carousel-inner.onebyone-carosel {
+    margin: auto;
+    width: 100%;
+}
+
+.onebyone-carosel .active.left {
+    left: -25.00%;
+}
+
+.onebyone-carosel .active.right {
+    left: 25.00%;
+}
+
+.onebyone-carosel .next {
+    left: 25.00%;
+}
+
+.onebyone-carosel .prev {
+    left: -25.00%;
+}
+
+.carousel-control.left {
+    left: -100px;
+    top: 34%;
+}
+
+.fa-chevron-left {
+    font-size: 38px;
+    color: #000;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: 93%;
+    font-size: 37px;
+    color: #000;
+    top: 30%;
+}
+
+.city_brands {
+    background-color: #f5f7fd;
+    padding: 1% 7% 5% 7%;
+}
+
+.footcol1 {
+    padding-top: 2% !important;
+}
+
+.socialcol ul {
+    list-style: none;
+    margin-left: 0%;
+    margin-top: 20%;
+}
+
+.socialcol ul li i {
+    font-size: 30pt;
+    color: #fff;
+    float: left;
+    padding: 5% 6%;
+}
+
+.footcol2 {
+    padding-top: 2% !important;
+}
+
+.footcol3 {
+    font-family: oswald;
+    color: #d0a965;
+    padding-right: 7% !important;
+    margin-top: 5% !important;
+}
+
+.footcol3 p {
+    color: #fff;
+}
+
+.footcol3 a {
+    text-decoration: none;
+    color: #d0a965;
+}
+
+.wfooter {
+    padding: 0% !important;
+}
+
+.business1 {
+    padding: 0px !important;
+}
+
+.shop_page {
+    margin-bottom: 5%;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li>a:hover {
+    border: none;
+    color: #4285F4 !important;
+    background: transparent;
+}
+
+.nav-tabs>li>a::after {
+    content: "";
+    background: #4285F4;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(0);
+}
+
+.nav-tabs>li.active>a::after,
+.nav-tabs>li:hover>a::after {
+    transform: scale(1);
+}
+
+.tab-nav>li>a::after {
+    background: #21527d none repeat scroll 0% 0%;
+    color: #fff;
+}
+
+.welimgs {
+    text-align: center;
+}
+
+.welimgs h2 {
+    text-align: center;
+    font-size: 37pt;
+    background: #E9003A;
+    color: #fff;
+    padding: 1.5% 0%;
+    width: 77.1%;
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: 500;
+    margin-top: 4%;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: -10px;
+}
+
+.welimgs img {
+    margin-bottom: 1.3%;
+    text-align: center;
+    width: 77.1%;
+}
+
+.city_abt p {
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    -moz-text-align-last: left;
+    text-align-last: left;
+    color: #000000c4;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.ra-tab1 li {
+    float: none !important;
+    border-radius: 0px !important;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.ra-tab1 {
+    width: 25%;
+    float: left;
+    border: 0px solid #000 !important;
+    border-radius: 0px !important;
+}
+
+.ra-tabl1 {
+    padding: 5% 8%;
+    padding-top: 0;
+}
+
+.ra-tab1 li a:hover {
+    border-bottom: 0px solid #000 !important;
+    border-right: 2px solid #4285f4 !important;
+}
+
+.ra-tab1 li a {
+    border-radius: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.ra-tab1 li a::after {
+    background: none !important;
+}
+
+.ra-tab1 li a {
+    color: #ec3c3c !important;
+}
+
+.nav-tabs>li.active>a {
+    background: none !important;
+    border: 0px solid #ddd !important;
+    border-right: 2px solid #4285f4 !important;
+}
+
+.ra-con1 img {
+    padding: 15px;
+}
+
+.ra-con1 img:hover {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+}
+
+.ra-con1 {
+    float: left !important;
+    width: 75% !important;
+}
+
+.navbar-header {
+    width: 30%;
+}
+
+.walogo {
+    float: left !important;
+    padding: 0px !important;
+    outline: none !important;
+    margin-top: -3%;
+}
+
+.navcnt {
+    float: right !important;
+    padding-top: 15px !important;
+}
+
+.wheader {
+    margin-top: 0px !important;
+    padding: 20px 0px;
+}
+
+header.sticky {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+    top: 0px;
+}
+
+.city_coffe:nth-child(3) {
+    margin-right: 0px;
+}
+
+button#s1 {
+    text-transform: uppercase;
+    background-color: #f04896;
+    color: #fff;
+    border: none !important;
+    font-size: 15px !important;
+    margin-top: 10px !important;
+    padding: 10px 20px !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width: 320px) and (max-width :480px) {
+    header.sticky {
+        position: relative;
+    }
+    .city_right ul {
+        position: relative;
+        bottom: 0;
+    }
+    .navbar-header {
+        width: auto;
+    }
+    .walogo {
+        margin-top: 0;
+        width: 79%;
+        padding-left: 15px !important;
+    }
+    .navcnt {
+        float: none !important;
+        padding-top: 0px !important;
+        margin-top: 4% !important;
+    }
+    .city_abt {
+        text-align: center;
+    }
+    .city_abt p {
+        padding-right: 0;
+    }
+    figure.snip1190 p {
+        font-size: 12px;
+    }
+    figure.snip1190 figcaption {
+        top: 0;
+    }
+    .city_coffe {
+        margin: 15px 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .city_brands {
+        background-color: #f5f7fd;
+        padding: 1% 4% 5% 4%;
+    }
+    .carousel-control.left {
+        left: -8%;
+        top: 31%;
+    }
+    .city_save h2,
+    .city_savecoffe h2,
+    .city_savecoffe p {
+        top: 30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .city_savecoffe p {
+        top: 25px;
+    }
+    .city_about h1 {
+        font-size: 22pt;
+    }
+    .city_events {
+        margin-right: 0px !important;
+        width: 100% !important;
+    }
+    .events_list li {
+        padding: 7px 22px 0px 22px;
+    }
+    .city_events h3 {
+        text-align: center;
+    }
+    .city_events p {
+        text-align: center;
+    }
+    .footcol1 img {
+        width: 100% !important;
+    }
+    .socialcol ul {
+        margin-top: 0;
+    }
+    .footcol2 {
+        padding-top: 0% !important;
+    }
+    .socialcol ul li i {
+        padding: 0% 6%;
+    }
+    .socialcol ul {
+        margin: 0px auto;
+        display: inline;
+    }
+    .footcol3 {
+        text-align: center;
+    }
+    .ra-tabl1 {
+        padding: 5% 5%;
+    }
+    .ra-tab1 {
+        width: 100%;
+        float: none;
+    }
+    .ra-tab1 li {
+        float: none !important;
+        text-align: center;
+    }
+    .ra-con1 {
+        float: none !important;
+        width: 100% !important;
+    }
+    .ra-tabl1 {
+        padding: 5% 5%;
+    }
+    .ra-tab1 {
+        width: 100%;
+        float: none;
+    }
+    .ra-tab1 li {
+        float: none !important;
+        text-align: center;
+    }
+    .ra-con1 {
+        float: none !important;
+        width: 100% !important;
+    }
+    .dine_tabs .nav-tabs>li {
+        float: none !important;
+        text-align: center;
+    }
+    .dine-cont img {
+        float: none !important;
+        width: 100% !important;
+    }
+    .cafe_logo,
+    .kids {
+        background-color: #cce7eb;
+        float: none;
+        width: 100%;
+    }
+    .city_event {
+        text-align: center;
+    }
+    .song_date {
+        float: none;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .song_date li {
+        float: none;
+    }
+    .dine_bg,
+    .kids_bg {
+        padding: 4% 4% 5% 4%;
+        text-align: center;
+    }
+    .contactone p {
+        padding: 0px 0%;
+    }
+    .events_list {
+        text-align: center;
+    }
+    .events img {
+        width: 100%;
+    }
+    .city_save img {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width :640px) {
+    header.sticky {
+        position: relative;
+    }
+    .city_right ul {
+        position: relative;
+        bottom: 0;
+    }
+    .navbar-header {
+        width: auto;
+    }
+    .walogo {
+        margin-top: 0;
+        width: 79%;
+        padding-left: 15px !important;
+    }
+    .navcnt {
+        float: none !important;
+        padding-top: 0px !important;
+        margin-top: 4% !important;
+    }
+    .city_abt {
+        text-align: center;
+    }
+    .city_abt p {
+        padding-right: 0;
+    }
+    figure.snip1190 p {
+        font-size: 12px;
+    }
+    figure.snip1190 figcaption {
+        top: 0;
+    }
+    .city_coffe {
+        margin: 15px 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .city_brands {
+        background-color: #f5f7fd;
+        padding: 1% 4% 5% 4%;
+    }
+    .carousel-control.left {
+        left: -8%;
+        top: 31%;
+    }
+    .city_save h2,
+    .city_savecoffe h2,
+    .city_savecoffe p {
+        top: 30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .city_savecoffe p {
+        top: 25px;
+    }
+    .city_about h1 {
+        font-size: 22pt;
+    }
+    .city_events {
+        margin-right: 0px !important;
+        width: 100% !important;
+    }
+    .events_list li {
+        padding: 7px 22px 0px 22px;
+    }
+    .city_events h3 {
+        text-align: center;
+    }
+    .city_events p {
+        text-align: center;
+    }
+    .footcol1 img {
+        width: 100% !important;
+    }
+    .socialcol ul {
+        margin-top: 0;
+    }
+    .footcol2 {
+        padding-top: 0% !important;
+    }
+    .socialcol ul li i {
+        padding: 0% 6%;
+    }
+    .socialcol ul {
+        margin: 0px auto;
+        display: inline;
+    }
+    .footcol3 {
+        text-align: center;
+    }
+    .ra-tabl1 {
+        padding: 5% 5%;
+    }
+    .ra-tab1 {
+        width: 100%;
+        float: none;
+    }
+    .ra-tab1 li {
+        float: none !important;
+        text-align: center;
+    }
+    .ra-con1 {
+        float: none !important;
+        width: 100% !important;
+    }
+    .ra-tabl1 {
+        padding: 5% 5%;
+    }
+    .ra-tab1 {
+        width: 100%;
+        float: none;
+    }
+    .ra-tab1 li {
+        float: none !important;
+        text-align: center;
+    }
+    .ra-con1 {
+        float: none !important;
+        width: 100% !important;
+    }
+    .dine_tabs .nav-tabs>li {
+        float: none !important;
+        text-align: center;
+    }
+    .dine-cont img {
+        float: none !important;
+        width: 100% !important;
+    }
+    .cafe_logo,
+    .kids {
+        background-color: #cce7eb;
+        float: none;
+        width: 100%;
+    }
+    .city_event {
+        text-align: center;
+    }
+    .song_date {
+        float: none;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .song_date li {
+        float: none;
+    }
+    .dine_bg,
+    .kids_bg {
+        padding: 4% 4% 5% 4%;
+        text-align: center;
+    }
+    .contactone p {
+        padding: 0px 0%;
+    }
+    .events_list {
+        text-align: center;
+    }
+    .events img {
+        width: 100%;
+    }
+    .city_save img {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width :767px) {
+    header.sticky {
+        position: relative;
+    }
+    .city_right ul {
+        position: relative;
+        bottom: 0;
+    }
+    .navbar-header {
+        width: auto;
+    }
+    .walogo {
+        margin-top: 0;
+        width: 79%;
+        padding-left: 15px !important;
+    }
+    .navcnt {
+        float: none !important;
+        padding-top: 0px !important;
+        margin-top: 4% !important;
+    }
+    .city_abt {
+        text-align: center;
+    }
+    .city_abt p {
+        padding-right: 0;
+    }
+    figure.snip1190 p {
+        font-size: 14px;
+    }
+    figure.snip1190 figcaption {
+        top: 0;
+    }
+    .city_coffe {
+        margin: 15px 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .city_brands {
+        background-color: #f5f7fd;
+        padding: 1% 4% 5% 4%;
+    }
+    .carousel-control.left {
+        left: -8%;
+        top: 31%;
+    }
+    .city_save h2,
+    .city_savecoffe h2,
+    .city_savecoffe p {
+        top: 30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .city_savecoffe p {
+        top: 25px;
+    }
+    .city_about h1 {
+        font-size: 22pt;
+    }
+    .city_events {
+        margin-right: 0px !important;
+        width: 100% !important;
+    }
+    .events_list li {
+        padding: 7px 22px 0px 22px;
+    }
+    .city_events h3 {
+        text-align: center;
+    }
+    .city_events p {
+        text-align: center;
+    }
+    .footcol1 img {
+        width: 100% !important;
+    }
+    .socialcol ul {
+        margin-top: 0;
+    }
+    .footcol2 {
+        padding-top: 0% !important;
+    }
+    .socialcol ul li i {
+        padding: 0% 6%;
+    }
+    .socialcol ul {
+        margin: 0px auto;
+        display: inline;
+    }
+    .footcol3 {
+        text-align: center;
+    }
+    .ra-tabl1 {
+        padding: 5% 5%;
+    }
+    .ra-tab1 {
+        width: 100%;
+        float: none;
+    }
+    .ra-tab1 li {
+        float: none !important;
+        text-align: center;
+    }
+    .ra-con1 {
+        float: none !important;
+        width: 100% !important;
+    }
+    .ra-tabl1 {
+        padding: 5% 5%;
+    }
+    .ra-tab1 {
+        width: 100%;
+        float: none;
+    }
+    .ra-tab1 li {
+        float: none !important;
+        text-align: center;
+    }
+    .ra-con1 {
+        float: none !important;
+        width: 100% !important;
+    }
+    .dine_tabs .nav-tabs>li {
+        float: none !important;
+        text-align: center;
+    }
+    .dine-cont img {
+        float: none !important;
+        width: 100% !important;
+    }
+    .cafe_logo,
+    .kids {
+        background-color: #cce7eb;
+        float: none;
+        width: 100%;
+    }
+    .city_event {
+        text-align: center;
+    }
+    .song_date {
+        float: none;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .song_date li {
+        float: none;
+    }
+    .dine_bg,
+    .kids_bg {
+        padding: 4% 4% 5% 4%;
+        text-align: center;
+    }
+    .contactone p {
+        padding: 0px 0%;
+    }
+    .events_list {
+        text-align: center;
+    }
+    .events img {
+        width: 100%;
+    }
+    .city_save img {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width :1000px) {
+    header.sticky {
+        position: relative;
+    }
+    .city_right ul {
+        position: relative;
+        bottom: 0;
+    }
+    .navbar-header {
+        width: 30%;
+    }
+    .walogo {
+        margin-top: 0;
+        width: 79%;
+        padding-left: 15px !important;
+    }
+    .city_abt {
+        text-align: center;
+    }
+    .city_abt p {
+        padding-right: 0;
+    }
+    figure.snip1190 p {
+        font-size: 14px;
+    }
+    figure.snip1190 figcaption {
+        top: 0;
+    }
+    .city_coffe {
+        margin: 15px 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .city_brands {
+        background-color: #f5f7fd;
+        padding: 1% 4% 5% 4%;
+    }
+    .carousel-control.left {
+        left: -8%;
+        top: 31%;
+    }
+    .city_save h2,
+    .city_savecoffe h2,
+    .city_savecoffe p {
+        top: 30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .city_savecoffe p {
+        top: 25px;
+    }
+    .city_about h1 {
+        font-size: 22pt;
+    }
+    .city_events {
+        margin-right: 0px !important;
+        width: 100% !important;
+    }
+    .events_list li {
+        padding: 7px 22px 0px 22px;
+    }
+    .city_events h3 {
+        text-align: center;
+    }
+    .city_events p {
+        text-align: center;
+    }
+    .footcol1 img {
+        width: 100% !important;
+    }
+    .socialcol ul {
+        margin-top: 0;
+    }
+    .footcol2 {
+        padding-top: 0% !important;
+    }
+    .socialcol ul li i {
+        padding: 0% 6%;
+    }
+    .socialcol ul {
+        margin: 0px auto;
+        display: inline;
+    }
+    .footcol3 {
+        text-align: center;
+    }
+    .ra-tabl1 {
+        padding: 5% 5%;
+    }
+    .ra-tab1 {
+        width: 100%;
+        float: none;
+    }
+    .ra-tab1 li {
+        float: none !important;
+        text-align: center;
+    }
+    .ra-con1 {
+        float: none !important;
+        width: 100% !important;
+    }
+    .ra-tabl1 {
+        padding: 5% 5%;
+    }
+    .ra-tab1 {
+        width: 100%;
+        float: none;
+    }
+    .ra-tab1 li {
+        float: none !important;
+        text-align: center;
+    }
+    .ra-con1 {
+        float: none !important;
+        width: 100% !important;
+    }
+    .dine_tabs .nav-tabs>li {
+        float: none !important;
+        text-align: center;
+    }
+    .dine-cont img {
+        float: none !important;
+        width: 100% !important;
+    }
+    .cafe_logo,
+    .kids {
+        background-color: #cce7eb;
+        float: none;
+        width: 100%;
+    }
+    .city_event {
+        text-align: center;
+    }
+    .song_date {
+        float: none;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .song_date li {
+        float: none;
+    }
+    .dine_bg,
+    .kids_bg {
+        padding: 4% 4% 5% 4%;
+        text-align: center;
+    }
+    .contactone p {
+        padding: 0px 0%;
+    }
+    .events_list {
+        text-align: center;
+    }
+    .events img {
+        width: 100%;
+    }
+    .city_save img {
+        width: 100% !important;
+    }
+    .walogo img {
+        width: 60% !important;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width :1200px) {
+    .city_right ul {
+        bottom: 0;
+    }
+    .r-creat3 {
+        min-height: 377px !important;
+    }
+    .city_stores {
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+    .city_coffe {
+        margin: 15px 8px;
+    }
+    .city_savecoffe p {
+        top: 20%;
+    }
+    .city_events {
+        margin-right: 16px !important;
+    }
+    .events_list li {
+        padding: 7px 24px 0px 24px;
+        text-align: center;
+    }
+}
