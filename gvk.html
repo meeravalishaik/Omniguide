@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>GVK One</title>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <title>Boutique</title>
+    <link rel="stylesheet" type="text/css" href="public/tenant/site.css" />
+    <link href="framework/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="framework/css/wacss.css" />
+    <script src="framework/js/wajs.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Spinnaker" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://www.jqueryscript.net/demo/Responsive-jQuery-Slider-with-Smooth-Zoom-Pan-Animations-Smoothslides/css/smoothslides.theme.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jqueryscript.net/css/jquerysctipttop.css">
+    <link href="https://fonts.googleapis.com/css?family=Spinnaker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mall.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <div class="editinvoke"><i class="fa fa-plus i"></i> Edit</div>
+
+    <div id="page">
+        <header>
+            <span class="logo">
+                <img class="logo-img" src="img/logo.png" alt="logo">
+            </span>
+
+            <span data-toggle="modal" data-target="#myModal" class="location">Gachibowli</span>
+            <span data-toggle="modal" data-target="#myModal" id="city">Hyderabad,Telangana,India
+                <i class="fa fa-caret-down" style="font-size:18px; color:#073e38;"></i>
+            </span>
+            <span data-toggle="modal" data-target="#myModal" id="glow"><a href="index.html"> Omni Guide</a></span>
+            <span id="search">
+                <i class="fa fa-search"></i>Search</span>
+            <span id="help">
+                <i class="fa fa-question-circle"></i>Help</span>
+            <span id="login" data-toggle="modal" data-target="#myModal2">
+                <i class="fa fa-user"></i>Sign In</span>
+        </header>
+        <div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h3 class="modal-title" id="myModalLabel">Location</h3>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="input">
+                            <input type="text" class="input_box" value="" name="" placeholder="Search for area,city..">
+
+                        </div>
+                        <div class="gps">
+                            <div class="gps_content">
+                                <i class="fa fa-crosshairs"></i>
+                                <strong>Get current location</strong>
+                            </div>
+                            <div class="sub_heading">using gps</div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- modal-content -->
+            </div>
+            <!-- modal-dialog -->
+        </div>
+        <!-- modal -->
+
+        <!-- Modal -->
+        <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h2 class="modal-title" id="myModalLabel2">Login </h2>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="login_button">
+                            <button class="loginBtn loginBtn--google">
+                                Login with Google
+                            </button>
+
+                        </div>
+                        <div class="login_button">
+                            <button class="loginBtn loginBtn--facebook">
+                                Login with Facebook
+                            </button>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- modal-content -->
+            </div>
+            <!-- modal-dialog -->
+        </div>
+
+        <section class="container-fluid body wbody">
+            <div class="row container-fluid" style="margin-top:7em;margin-bottom:1.5em">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <img src="gvkone/gvkoffer.jpg" alt="Los Angeles" style="width:100%;">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="gvkone/gvkdress.jpg" alt="Chicago" style="width:100%;">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="gvkone/spa.jpg" alt="New York" style="width:100%;">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="gvkone/food.jpg" alt="New York" style="width:100%;">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="gvkone/drink.jpg" alt="New York" style="width:100%;">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="gvkone/inox.jpg" alt="New York" style="width:100%;">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="row container-fluid kekmdd ourbrands" style="background-color:#073e38">
+                <div class="col-md-12 navi city_about">
+                    <h1 style="text-align:center;color:white ">Shop</h1>
+                </div>
+            </div>
+            <div class="row container-fluid ra-tabl1">
+                <div class="col-md-12 navi panel-body">
+                    <div class="tabbable tabs-top">
+                        <ul class="nav nav-tabs ra-tab1">
+                            <li class="active"><a href="#Ground-Floor" data-toggle="tab">Ground Floor</a></li>
+                            <li class=""><a href="#First-Floor" data-toggle="tab">First Floor</a></li>
+                            <li class=""><a href="#Third-Floor" data-toggle="tab">Second Floor</a></li>
+                            <li class=""><a href="#Second-Floor" data-toggle="tab">Third Floor</a></li>
+                            <li class=""><a href="#Fourth-Floor" data-toggle="tab">Fourth Floor</a></li>
+
+
+                        </ul>
+                        <div class="tab-content ra-con1">
+                            <div class="tab-pane  navi active" id="Ground-Floor">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_63819ef0-1f64-11e8-aab7-3bbab7c8ac6cimg1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/1.jpg"></a></div>
+                                    <div class="col-md-3 navi panel-body">
+                                        <a href="static/5a480b46afc376440d6b00bb_63874440-1f64-11e8-aab7-3bbab7c8ac6cimg2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/2.jpg" class=""></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_639d6450-1f64-11e8-aab7-3bbab7c8ac6cimg4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/3.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_639bddb0-1f64-11e8-aab7-3bbab7c8ac6cimg3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/4.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_63b5ce50-1f64-11e8-aab7-3bbab7c8ac6cimg5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/5.jpg" class=""></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_63bb2580-1f64-11e8-aab7-3bbab7c8ac6cimg6.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/6.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_63d4c800-1f64-11e8-aab7-3bbab7c8ac6cimg7.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/7.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_63d675b0-1f64-11e8-aab7-3bbab7c8ac6cimg8.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/8.jpg" class=""></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_63ef54e0-1f64-11e8-aab7-3bbab7c8ac6cimg9.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/9.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_63f0db80-1f64-11e8-aab7-3bbab7c8ac6cimg10.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/10.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_6dec6640-1f64-11e8-a700-77c5ad95dd56img11.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/11.png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_6dee8920-1f64-11e8-aab7-3bbab7c8ac6cimg12.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/12.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_6e067df0-1f64-11e8-a700-77c5ad95dd56img13.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/ground/13.png" class=""></a></div>
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane navi" id="First-Floor">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_86a5acd0-1f66-11e8-a700-77c5ad95dd56img1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/1.jpg"></a></div>
+
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_86a5d3e0-1f66-11e8-a700-77c5ad95dd56img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/2.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_86bc6920-1f66-11e8-a700-77c5ad95dd56img3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/3.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_86bcde50-1f66-11e8-a700-77c5ad95dd56img4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/4.jpg"></a></div>
+
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_86d28930-1f66-11e8-a700-77c5ad95dd56img6.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/5.jpg"></a></div>
+
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_86d2d750-1f66-11e8-a700-77c5ad95dd56img5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/6.jpg"></a></div>
+
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_86e88230-1f66-11e8-a700-77c5ad95dd56img8.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/7.jpg"></a></div>
+
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_86e770c0-1f66-11e8-a700-77c5ad95dd56img7.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/8.jpg"></a></div>
+
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_86ff1770-1f66-11e8-a700-77c5ad95dd56img9.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/9.jpg"></a></div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane navi" id="Second-Floor">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_47912ff0-1f67-11e8-a700-77c5ad95dd56img1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/1.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_4794d970-1f67-11e8-a700-77c5ad95dd56img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/2.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_47a701e0-1f67-11e8-a700-77c5ad95dd56img3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/3.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_47aaab60-1f67-11e8-a700-77c5ad95dd56img4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/4.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_47bc85b0-1f67-11e8-a700-77c5ad95dd56img5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/5.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_47c1b5d0-1f67-11e8-a700-77c5ad95dd56img6.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/6.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_47cfe6a0-1f67-11e8-a700-77c5ad95dd56img7.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/7.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_47d71290-1f67-11e8-a700-77c5ad95dd56img8.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/8.jpg"></a></div>
+                                    <div class="col-md-3 navi panel-body">
+                                        <a href="static/5a480b46afc376440d6b00bb_47e51c50-1f67-11e8-a700-77c5ad95dd56img9.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/9.jpg" class=""></a></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane navi" id="Third-Floor">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe50c980-1f67-11e8-aab7-3bbab7c8ac6cimg1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/1.jpg"></a></div>
+                                    <div class="col-md-3 navi panel-body">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe4f42e0-1f67-11e8-a700-77c5ad95dd56img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/2.jpg" class=""></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe695a90-1f67-11e8-a700-77c5ad95dd56img4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/3.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe67fb00-1f67-11e8-aab7-3bbab7c8ac6cimg3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/4.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe50c980-1f67-11e8-aab7-3bbab7c8ac6cimg1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/5.jpg"></a></div>
+                                    <div class="col-md-3 navi panel-body">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe4f42e0-1f67-11e8-a700-77c5ad95dd56img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/6.jpg" class=""></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe695a90-1f67-11e8-a700-77c5ad95dd56img4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/7.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe67fb00-1f67-11e8-aab7-3bbab7c8ac6cimg3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/8.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe50c980-1f67-11e8-aab7-3bbab7c8ac6cimg1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/9.jpg"></a></div>
+                                    <div class="col-md-3 navi panel-body">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe4f42e0-1f67-11e8-a700-77c5ad95dd56img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/10.jpg" class=""></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe695a90-1f67-11e8-a700-77c5ad95dd56img4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/11.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe67fb00-1f67-11e8-aab7-3bbab7c8ac6cimg3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/12.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe50c980-1f67-11e8-aab7-3bbab7c8ac6cimg1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/13.jpg"></a></div>
+                                    <div class="col-md-3 navi panel-body">
+                                        <a href="static/5a480b46afc376440d6b00bb_fe4f42e0-1f67-11e8-a700-77c5ad95dd56img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/14.jpg" class=""></a></div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane navi" id="Fourth-Floor">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_80901080-20b3-11e8-85e4-c5306a7e1fb2img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/1.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_808e89e0-20b3-11e8-85e4-c5306a7e1fb2img1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/2.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_80b0def0-20b3-11e8-85e4-c5306a7e1fb2img3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/3.jpg"></a></div>
+                                    <div class="col-md-3 navi panel-body">
+                                        <a href="static/5a480b46afc376440d6b00bb_80b37700-20b3-11e8-85e4-c5306a7e1fb2img4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/4.jpg" class=""></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_80d1fb80-20b3-11e8-85e4-c5306a7e1fb2img5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/5.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_80d508c0-20b3-11e8-85e4-c5306a7e1fb2img6.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/6.jpg"></a></div>
+
+
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16a1aeb0-2246-11e8-9828-9ba07c7fde5aimg1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/7.jpg" class=""></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16a53120-2246-11e8-bd08-4b5084d036b2img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/8.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16bbc660-2246-11e8-9828-9ba07c7fde5aimg3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/9.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16c2a430-2246-11e8-bd08-4b5084d036b2img4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/10.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16e06560-2246-11e8-9828-9ba07c7fde5aimg5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/11.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16f5e930-2246-11e8-9828-9ba07c7fde5aimg6.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/12.jpg"></a></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row container-fluid kekmdd ourbrands" style="background-color: #073e38">
+                <div class="col-md-12 navi city_about">
+                    <h1 style="text-align:center;color: white;">Category</h1>
+                </div>
+            </div>
+            <div class="row container-fluid ra-tabl1" style="display: block;">
+                <div class="col-md-12 navi panel-body">
+                    <div class="tabbable tabs-top">
+                        <ul class="nav nav-tabs ra-tab1">
+                            <li class="active"><a href="#Ethnic" data-toggle="tab">Ethnic</a></li>
+                            <li class=""><a href="#Apparals" data-toggle="tab">Apparals</a></li>
+                            <li class=""><a href="#Footwear" data-toggle="tab">Footwear</a></li>
+                            <li class=""><a href="#Spa" data-toggle="tab">Spa</a></li>
+                            <li class=""><a href="#Kids" data-toggle="tab">Kids</a></li>
+                            <li class=""><a href="#Accessories" data-toggle="tab">Accessories</a></li>
+                            <li class=""><a href="#Gaming-Zone" data-toggle="tab">Movies</a></li>
+                            <li class=""><a href="#Food" data-toggle="tab">Food</a></li>
+                            <li class=""><a href="#Services" data-toggle="tab">Services</a></li>
+                            <li class=""><a href="#Fine-Dine" data-toggle="tab">Fine Dine</a></li>
+
+                        </ul>
+                        <div class="tab-content ra-con1">
+                            <div class="tab-pane  navi active" id="Ethnic">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_00de3470-1b31-11e8-a700-77c5ad95dd56logo-1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/ethnic/1.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_00e18fd0-1b31-11e8-a700-77c5ad95dd56logo-2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/ethnic/2.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_00fd5530-1b31-11e8-a700-77c5ad95dd56logo-3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/ethnic/3.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_00ff29f0-1b31-11e8-a700-77c5ad95dd56logo-4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/ethnic/4.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_01191a90-1b31-11e8-a700-77c5ad95dd56logo-5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/ethnic/5.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_01191a90-1b31-11e8-a700-77c5ad95dd56logo-5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/ethnic/6.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_01191a90-1b31-11e8-a700-77c5ad95dd56logo-5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/ethnic/7.jpg"></a></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane   navi" id="Apparals">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_c0759c70-1b35-11e8-a700-77c5ad95dd56logo-1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/1.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_c07a7e70-1b35-11e8-a700-77c5ad95dd56logo-2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/2.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_c08f6600-1b35-11e8-a700-77c5ad95dd56logo-3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/3.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_c0992a00-1b35-11e8-a700-77c5ad95dd56logo-4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/4.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_c0d65a10-1b35-11e8-a700-77c5ad95dd56logo-5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/5.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_c0f61710-1b35-11e8-a700-77c5ad95dd56logo-7.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/6.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_c0d96750-1b35-11e8-a700-77c5ad95dd56logo-6.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/7.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_c11dc350-1b35-11e8-a700-77c5ad95dd56logo-8.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/8.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_c2a94550-1b35-11e8-a700-77c5ad95dd56logo-9.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/9.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_c2d18dd0-1b35-11e8-a700-77c5ad95dd56logo-10.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/10.jpg"></a></div>
+
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f4fa2150-1b35-11e8-a700-77c5ad95dd56logo-11.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/12.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f5283630-1b35-11e8-a700-77c5ad95dd56logo-13.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/13.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f5492bb0-1b35-11e8-a700-77c5ad95dd56logo-14.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/14.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f5032200-1b35-11e8-a700-77c5ad95dd56logo-12.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/1.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f669ddf0-1b35-11e8-a700-77c5ad95dd56logo-16.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/2.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f73f0840-1b35-11e8-a700-77c5ad95dd56logo-17.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/3.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f7bc9cb0-1b35-11e8-a700-77c5ad95dd56logo-18.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/4.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f8b41c10-1b35-11e8-a700-77c5ad95dd56logo-19.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/6.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f9281390-1b35-11e8-a700-77c5ad95dd56logo-20.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/9.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f5e36fe0-1b35-11e8-a700-77c5ad95dd56logo-15.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/7.jpg"></a></div>
+
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_147adba0-1b36-11e8-a700-77c5ad95dd56logo-21.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/8.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_14816b50-1b36-11e8-a700-77c5ad95dd56logo-22.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/4.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_14a08c10-1b36-11e8-a700-77c5ad95dd56logo-23.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/8.jpg"></a></div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane   navi" id="Footwear">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_ada894c0-1b45-11e8-aab7-3bbab7c8ac6clogo-2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/second/5.jpg"></a>
+                                    </div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_ada86db0-1b45-11e8-aab7-3bbab7c8ac6clogo-1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/second/8.jpg"></a>
+                                    </div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_adcdf710-1b45-11e8-aab7-3bbab7c8ac6clogo-3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/second/9.jpg"></a>
+                                    </div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_adcff2e0-1b45-11e8-aab7-3bbab7c8ac6clogo-4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width: 100%;"
+                                                src="gvkone/first/1.jpg"></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane   navi" id="Spa">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f16fdfc0-1b4e-11e8-a9c6-c18de7c90a64logo-1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/2.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f16fdfc0-1b4e-11e8-a9c6-c18de7c90a64logo-1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/first/6.jpg"></a></div>
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f16fdfc0-1b4e-11e8-a9c6-c18de7c90a64logo-1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/o2.jpg"></a></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane   navi" id="Kids">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_cdbf41f0-1b4f-11e8-a700-77c5ad95dd56logo-1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/2.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_cdd90b80-1b4f-11e8-a700-77c5ad95dd56logo-2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/third/4.jpg"></a></div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane   navi" id="Accessories">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_483d54c0-1b51-11e8-a700-77c5ad95dd56logo-2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/4.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_485b3d00-1b51-11e8-a700-77c5ad95dd56logo-3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/5.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_490ab6e0-1b51-11e8-a700-77c5ad95dd56logo-4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/second/6.jpg"></a></div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane   navi" id="Gaming-Zone">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_80901080-20b3-11e8-85e4-c5306a7e1fb2img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/1.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_808e89e0-20b3-11e8-85e4-c5306a7e1fb2img1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/2.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_80b0def0-20b3-11e8-85e4-c5306a7e1fb2img3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/3.jpg"></a></div>
+                                    <div class="col-md-3 navi panel-body">
+                                        <a href="static/5a480b46afc376440d6b00bb_80b37700-20b3-11e8-85e4-c5306a7e1fb2img4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/4.jpg" class=""></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_80d1fb80-20b3-11e8-85e4-c5306a7e1fb2img5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/5.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_80d508c0-20b3-11e8-85e4-c5306a7e1fb2img6.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/6.jpg"></a></div>
+
+
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16a1aeb0-2246-11e8-9828-9ba07c7fde5aimg1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/7.jpg" class=""></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16a53120-2246-11e8-bd08-4b5084d036b2img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/8.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16bbc660-2246-11e8-9828-9ba07c7fde5aimg3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/9.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16c2a430-2246-11e8-bd08-4b5084d036b2img4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/10.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16e06560-2246-11e8-9828-9ba07c7fde5aimg5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/11.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16f5e930-2246-11e8-9828-9ba07c7fde5aimg6.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/fourth/12.jpg"></a></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane   navi" id="Food">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_f7ba2580-1b52-11e8-85e4-c5306a7e1fb2logo-1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/1.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_f7bc9680-1b52-11e8-85e4-c5306a7e1fb2logo-2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/2.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_f7e2e330-1b52-11e8-85e4-c5306a7e1fb2logo-4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/3.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_f7f16220-1b52-11e8-85e4-c5306a7e1fb2logo-3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/4.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_f81c90d0-1b52-11e8-85e4-c5306a7e1fb2logo-5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/5.jpg"></a></div>
+
+
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16a1aeb0-2246-11e8-9828-9ba07c7fde5aimg1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/6.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16a53120-2246-11e8-bd08-4b5084d036b2img2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/7.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16bbc660-2246-11e8-9828-9ba07c7fde5aimg3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/8.png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16c2a430-2246-11e8-bd08-4b5084d036b2img4.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/9.png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16e06560-2246-11e8-9828-9ba07c7fde5aimg5.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/12.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16f5e930-2246-11e8-9828-9ba07c7fde5aimg6.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/14.png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_16f5e930-2246-11e8-9828-9ba07c7fde5aimg6.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/15.jpg"></a></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane   navi" id="Services">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_06fd5440-1b71-11e8-aab7-3bbab7c8ac6cicons (1).png"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="static/5a480b46afc376440d6b00bb_06fd5440-1b71-11e8-aab7-3bbab7c8ac6cicons (1).png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_070b0fe0-1b71-11e8-a9c6-c18de7c90a64icons (2).png"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="static/5a480b46afc376440d6b00bb_070b0fe0-1b71-11e8-a9c6-c18de7c90a64icons (2).png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_071b8aa0-1b71-11e8-aab7-3bbab7c8ac6cicons (3).png"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="static/5a480b46afc376440d6b00bb_071b8aa0-1b71-11e8-aab7-3bbab7c8ac6cicons (3).png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_073e54e0-1b71-11e8-aab7-3bbab7c8ac6cicons (5).png"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="static/5a480b46afc376440d6b00bb_073e54e0-1b71-11e8-aab7-3bbab7c8ac6cicons (5).png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_073b95c0-1b71-11e8-a9c6-c18de7c90a64icons (4).png"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="static/5a480b46afc376440d6b00bb_073b95c0-1b71-11e8-a9c6-c18de7c90a64icons (4).png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_07592fe0-1b71-11e8-aab7-3bbab7c8ac6cicons (6).png"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="static/5a480b46afc376440d6b00bb_07592fe0-1b71-11e8-aab7-3bbab7c8ac6cicons (6).png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_077172d0-1b71-11e8-a9c6-c18de7c90a64icons (7).png"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="static/5a480b46afc376440d6b00bb_077172d0-1b71-11e8-a9c6-c18de7c90a64icons (7).png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_077b0fc0-1b71-11e8-aab7-3bbab7c8ac6cicons (8).png"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="static/5a480b46afc376440d6b00bb_077b0fc0-1b71-11e8-aab7-3bbab7c8ac6cicons (8).png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_07932ba0-1b71-11e8-a9c6-c18de7c90a64icons.png"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="static/5a480b46afc376440d6b00bb_07932ba0-1b71-11e8-a9c6-c18de7c90a64icons.png"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_079f3990-1b71-11e8-aab7-3bbab7c8ac6cicons10.png"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="static/5a480b46afc376440d6b00bb_079f3990-1b71-11e8-aab7-3bbab7c8ac6cicons10.png"></a></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane   navi" id="Fine-Dine">
+                                <div class="adgallery">
+                                    <div class="col-md-3 navi"><a href="static/5a480b46afc376440d6b00bb_82ca4650-1b53-11e8-85e4-c5306a7e1fb2logo-1.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/10.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_82cc4220-1b53-11e8-85e4-c5306a7e1fb2logo-2.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/11.jpg"></a></div>
+                                    <div class="col-md-3 navi">
+                                        <a href="static/5a480b46afc376440d6b00bb_82f240b0-1b53-11e8-85e4-c5306a7e1fb2logo-3.jpg"
+                                            data-toggle="lightbox" data-gallery="multiimages" data-title=""><img style="width:100% "
+                                                src="gvkone/food/13.jpg"></a></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+
+        <!--Footer Links-->
+        <div class="container  text-md-left" style="padding-top:3em">
+
+            <!-- Footer links -->
+            <div class="row  text-md-left mt-3 pb-3">
+
+                <!--First column-->
+                <div class="col-md-3 col-lg-3 col-xl-3 ">
+                    <h4 id="footerHead" class="text-uppercase mb-4 font-weight-bold">Company</h4>
+                    <p id="footerLink">
+                        <a href="#!">About us</a>
+                    </p>
+                    <p id="footerLink">
+                        <a href="#!">Team</a>
+                    </p>
+                    <p id="footerLink">
+                        <a href="#!">Careers</a>
+                    </p>
+                    <p id="footerLink">
+                        <a href="#!">Omniguide Blog</a>
+                    </p>
+                </div>
+                <!--/.First column-->
+
+
+
+                <!--Second column-->
+                <div class="col-md-3 col-lg-3  ">
+                    <h4 id="footerHead" class="text-uppercase mb-4 font-weight-bold">Contact</h4>
+                    <p id="footerLink">
+                        <a href="#!">Help & Support</a>
+                    </p>
+                    <p id="footerLink">
+                        <a href="#!">Partner with us</a>
+                    </p>
+
+                </div>
+                <!--/.Second column-->
+
+
+
+                <!--Third column-->
+                <div class="col-md-3 col-lg-3 ">
+                    <h4 id="footerHead" class="text-uppercase mb-4 font-weight-bold">Legal</h4>
+                    <p id="footerLink">
+                        <a href="#!">Terms & Conditions</a>
+                    </p>
+                    <p id="footerLink">
+                        <a href="#!">Privacy Policy</a>
+                    </p>
+                    <p id="footerLink">
+                        <a href="#!">Offer Terms</a>
+                    </p>
+
+                </div>
+                <!--/.Third column-->
+
+
+
+                <!--Fourth column-->
+                <div class="col-md-3 col-lg-3  ">
+                    <h4 id="footerHead" class="text-uppercase mb-4 font-weight-bold">Contact</h4>
+                    <p id="footerLink">
+                        <i class="fa fa-home mr-3"></i>Upal,Hyderabad,Andhra Pradesh </p>
+                    <p id="footerLink">
+                        <i class="fa fa-envelope mr-3"></i> Anupama@gmail.com</p>
+                    <p id="footerLink">
+                        <i class="fa fa-phone mr-3"></i> 8985496029</p>
+
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+            <!-- Footer links -->
+
+            <hr>
+
+            <div class="row py-3 d-flex align-items">
+
+                <!--Grid column-->
+                <div class="col-md-4 col-lg-4">
+
+                    <span class="logo">
+                        <img class="footer-img" src="img/logo.png" alt="logo">
+                    </span>
+                    <span class="footerText">Omniguide</span>
+
+                </div>
+                <div class="col-md-4 col-lg-4">
+
+                    <!--Copyright-->
+                    <p id="footerCopy"> &copy;2018
+                        <strong> Omniguide</strong>
+                    </p>
+                    <!--/.Copyright-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-4 col-lg-4 ">
+
+                    <!--Social buttons-->
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.Social buttons-->
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1) {
+                $('header').addClass("sticky");
+            } else {
+                $('header').removeClass("sticky");
+            }
+        });
+    </script>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade top" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content pop">
+            </div> <!-- /.modal-content -->
+        </div> <!-- /.modal-dialog -->
+    </div> <!-- /.modal -->
+
+    <!-- Modal -->
+    <div id="tallModal" class="modal fade right  modal-wide" tabindex="-1" role="dialog" aria-labelledby="tallModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="settingsModal" class="modal fade right  modal-wide" tabindex="-1" role="dialog" aria-labelledby="settingsModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+</body>
+
+</html>
